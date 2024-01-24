@@ -1,5 +1,12 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import { FormSection } from '../../css/Containers';
+import {
+  FormContainer,
+  FormTitle,
+  FormInput,
+  SubmitButton,
+} from './LoginForm.styled';
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -22,10 +29,10 @@ const LoginForm = () => {
   };
 
   return (
-    <section>
-      <h2>Login Form</h2>
-      <form action="submit" onSubmit={handleFormSubmit}>
-        <input
+    <FormSection>
+      <FormContainer action="submit" onSubmit={handleFormSubmit}>
+        <FormTitle>Login Form</FormTitle>
+        <FormInput
           name="email"
           type="email"
           id="email"
@@ -34,7 +41,7 @@ const LoginForm = () => {
           required
           onChange={handleInputChange}
         />
-        <input
+        <FormInput
           name="password"
           type="password"
           id="password"
@@ -43,9 +50,9 @@ const LoginForm = () => {
           required
           onChange={handleInputChange}
         />
-        <button type="submit">Submit</button>
-      </form>
-    </section>
+        <SubmitButton type="submit">Submit</SubmitButton>
+      </FormContainer>
+    </FormSection>
   );
 };
 

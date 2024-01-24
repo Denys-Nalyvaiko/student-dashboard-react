@@ -1,5 +1,12 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
+import { FormSection } from '../../css/Containers';
+import {
+  FormContainer,
+  FormTitle,
+  FormInput,
+  SubmitButton,
+} from './RegisterForm.styled';
 
 const RegisterForm = () => {
   const navigate = useNavigate();
@@ -24,10 +31,10 @@ const RegisterForm = () => {
   };
 
   return (
-    <section>
-      <h2>Login Form</h2>
-      <form action="submit" onSubmit={handleFormSubmit}>
-        <input
+    <FormSection>
+      <FormContainer action="submit" onSubmit={handleFormSubmit}>
+        <FormTitle>Register Form</FormTitle>
+        <FormInput
           name="username"
           type="text"
           id="username"
@@ -36,7 +43,7 @@ const RegisterForm = () => {
           required
           onChange={handleInputChange}
         />
-        <input
+        <FormInput
           name="email"
           type="email"
           id="email"
@@ -45,7 +52,7 @@ const RegisterForm = () => {
           required
           onChange={handleInputChange}
         />
-        <input
+        <FormInput
           name="password"
           type="password"
           id="password"
@@ -54,9 +61,9 @@ const RegisterForm = () => {
           required
           onChange={handleInputChange}
         />
-        <button type="submit">Submit</button>
-      </form>
-    </section>
+        <SubmitButton type="submit">Submit</SubmitButton>
+      </FormContainer>
+    </FormSection>
   );
 };
 
