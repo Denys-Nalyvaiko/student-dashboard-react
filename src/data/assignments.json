@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Homework",
+    "type": "homework",
+    "course": "Math",
+    "date": "8:00 Thursday",
+    "status": "Done",
+    "note": "Module 1 & 2",
+    "grade": 4.5
+  },
+  {
+    "id": 2,
+    "name": "GR Project",
+    "type": "project",
+    "course": "Informatic",
+    "date": "11:00 Monday",
+    "status": "In progress",
+    "note": "Group project",
+    "grade": 4
+  },
+  {
+    "id": 3,
+    "name": "Workshop",
+    "type": "workshop",
+    "course": "Economic",
+    "date": "10:00 Tuesday",
+    "status": "In progress",
+    "note": "Some notes",
+    "grade": 4
+  }
+]
