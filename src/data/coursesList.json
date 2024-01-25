@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Computer Science",
+    "subjectCoordinator": "Dr. John Smith",
+    "coordinatorEmail": "john.smith@example.com",
+    "schedule": "Monday, Wednesday, Friday 10:00 AM - 11:30 AM",
+    "classroom": "101",
+    "imageSrc": "https://images.unsplash.com/photo-1613068687893-5e85b4638b56?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "title": "Mathematics for Engineers",
+    "subjectCoordinator": "Prof. Emily Johnson",
+    "coordinatorEmail": "emily.johnson@example.com",
+    "schedule": "Tuesday, Thursday 2:00 PM - 3:30 PM",
+    "classroom": "201",
+    "imageSrc": "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "title": "Literature and Writing",
+    "subjectCoordinator": "Dr. Maria Rodriguez",
+    "coordinatorEmail": "maria.rodriguez@example.com",
+    "schedule": "Monday, Wednesday 1:00 PM - 2:30 PM",
+    "classroom": "301",
+    "imageSrc": "https://images.unsplash.com/photo-1632406898177-95f7acd8854f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 4,
+    "title": "History of Art",
+    "subjectCoordinator": "Prof. James Turner",
+    "coordinatorEmail": "james.turner@example.com",
+    "schedule": "Tuesday, Thursday 10:00 AM - 11:30 AM",
+    "classroom": "401",
+    "imageSrc": "https://images.unsplash.com/photo-1642775196125-38a9eb496568?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "title": "Chemistry Basics",
+    "subjectCoordinator": "Dr. Sarah Brown",
+    "coordinatorEmail": "sarah.brown@example.com",
+    "schedule": "Monday, Wednesday 3:00 PM - 4:30 PM",
+    "classroom": "501",
+    "imageSrc": "https://images.unsplash.com/photo-1626624338641-b99e0d32c958?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "title": "Business Ethics",
+    "subjectCoordinator": "Prof. Michael Davis",
+    "coordinatorEmail": "michael.davis@example.com",
+    "schedule": "Thursday 1:00 PM - 3:00 PM",
+    "classroom": "601",
+    "imageSrc": "https://images.unsplash.com/reserve/NV0eHnNkQDHA21GC3BAJ_Paris%20Louvr.jpg?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 7,
+    "title": "Environmental Science",
+    "subjectCoordinator": "Dr. Jessica Turner",
+    "coordinatorEmail": "jessica.turner@example.com",
+    "schedule": "Tuesday, Friday 9:00 AM - 10:30 AM",
+    "classroom": "701",
+    "imageSrc": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 8,
+    "title": "Psychology 101",
+    "subjectCoordinator": "Prof. Brian Johnson",
+    "coordinatorEmail": "brian.johnson@example.com",
+    "schedule": "Monday, Wednesday 2:00 PM - 4:00 PM",
+    "classroom": "801",
+    "imageSrc": "https://images.unsplash.com/photo-1573511860302-28c524319d2a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 9,
+    "title": "Introduction to Robotics",
+    "subjectCoordinator": "Dr. Emma White",
+    "coordinatorEmail": "emma.white@example.com",
+    "schedule": "Tuesday, Thursday 3:30 PM - 5:00 PM",
+    "classroom": "901",
+    "imageSrc": "https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]

@@ -7,3 +7,9 @@ export const FormSection = styled.section`
   align-items: center;
   height: 90vh;
 `;
+
+export const HomeSection = styled.section`
+  display: flex;
+  /* gap: 36px; */
+  justify-content: space-between;
+`;
